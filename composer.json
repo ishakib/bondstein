@@ -24,13 +24,13 @@
         "psr-4": {
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/"
+            "Database\\Seeders\\": "database/seeders/",
+            "LaraCrud\\": "packages/LaraCrud/src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/",
-            "LaraCrud\\": "packages/lara-crud/src/"
+            "Tests\\": "tests/"
         }
     },
     "scripts": {
