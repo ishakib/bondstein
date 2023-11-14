@@ -5825,12 +5825,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ishakib/lara-crud.git",
-                "reference": "08c92917704a7107a48f373e23ebd8119dbd0f48"
+                "reference": "217f57542ac3a1f9f3ce38c0d7d837d006f875d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ishakib/lara-crud/zipball/08c92917704a7107a48f373e23ebd8119dbd0f48",
-                "reference": "08c92917704a7107a48f373e23ebd8119dbd0f48",
+                "url": "https://api.github.com/repos/ishakib/lara-crud/zipball/217f57542ac3a1f9f3ce38c0d7d837d006f875d6",
+                "reference": "217f57542ac3a1f9f3ce38c0d7d837d006f875d6",
                 "shasum": ""
             },
             "require": {
@@ -5856,7 +5856,7 @@
                 "source": "https://github.com/ishakib/lara-crud/tree/dev",
                 "issues": "https://github.com/ishakib/lara-crud/issues"
             },
-            "time": "2023-11-14T00:31:20+00:00"
+            "time": "2023-11-14T00:39:16+00:00"
         },
         {
             "name": "laravel/pint",
