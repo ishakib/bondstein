@@ -18,3 +18,5 @@ Route::get('/', function () {
 });
 Route::apiResource('posts', App\Http\Controllers\PostController::class);
 Route::apiResource('shakibs', App\Http\Controllers\ShakibController::class);
+
+Route::apiResource('comments', App\Http\Controllers\CommentController::class);
