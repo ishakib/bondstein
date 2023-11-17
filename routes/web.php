@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::apiResource('posts', App\Http\Controllers\PostController::class);
+Route::apiResource('shakibs', App\Http\Controllers\ShakibController::class);
