@@ -51,7 +51,9 @@ laracrud\LaraCrudServiceProvider::class,
 
 **Step 5:** Run the following command to publish the Laravel CRUD assets:
 
-```php artisan vendor:publish --tag=laracrud-publish```
+```
+php artisan vendor:publish --tag=laracrud-publish
+```
 
 **Step 6:**  Uncomment App\Providers\RepositoryRegisterProvider::class from the providers array in the config/app.php file:
 ```
