@@ -19,4 +19,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 
-Route::apiResource('posts', App\Http\Controllers\PostController::class);
+
+Route::apiResource('jobposts', App\Http\Controllers\JobPostController::class);
+Route::apiResource('lists', App\Http\Controllers\ListController::class);
+Route::apiResource('', App\Http\Controllers\Controller::class);

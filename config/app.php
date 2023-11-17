@@ -168,8 +168,8 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-        laracrud\LaraCrudServiceProvider::class,
-        App\Providers\RepositoryRegisterProvider::class
+        //laracrud\LaraCrudServiceProvider::class,
+        //App\Providers\RepositoryRegisterProvider::class
     ])->toArray(),
 
     /*
