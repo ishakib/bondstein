@@ -38,7 +38,9 @@
 ```
 
 **Step 3:** Run the following command to install the required packages:
-```composer install```
+```
+composer install
+```
 
 
 **Step 4:**  Uncomment laracrud\LaraCrudServiceProvider::class from the providers array in the config/app.php file:
